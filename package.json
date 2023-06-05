@@ -1,0 +1,18 @@
+{
+  "name": "net3v0.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-server": "cd server && pnpm i",
+    "install-client": "cd client && pnpm i",
+    "install": "pnpm install-server && pnpm install-client",
+    "server": "cd server && pnpm run dev",
+    "client": "cd client && pnpm run dev",
+    "fullStack": "pnpm run server & pnpm run client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

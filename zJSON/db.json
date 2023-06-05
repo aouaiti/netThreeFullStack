@@ -1,0 +1,106 @@
+{
+  "buildings": [
+    {
+      "name": "montfleury",
+      "id": "ca1c0772-f623-11ed-b67e-0242ac120002",
+      "equipments": [
+        {
+          "name": "sw1",
+          "type": "switch",
+          "id": "ca1c0d08-f623-11ed-b67e-0242ac120002",
+          "interfaces": ["Ge0/0/48"],
+          "position": {
+            "x": 3.2472383143232353,
+            "y": 0,
+            "z": 0.6333564085238241
+          }
+        },
+        {
+          "name": "sw2",
+          "type": "switch",
+          "id": "ca1c0ea2-f623-11ed-b67e-0242ac120002",
+          "interfaces": ["Ge0/0/48"],
+          "position": {
+            "x": -3.701783406367899,
+            "y": 0,
+            "z": 0.3325500919727977
+          }
+        },
+        {
+          "name": "r1",
+          "type": "router",
+          "id": "ca1c0fc4-f623-11ed-b67e-0242ac120002",
+          "interfaces": ["Ge0/0/48", "Ge0/0/48", "XG0/0/1"],
+          "position": {
+            "x": -0.20116041734060008,
+            "y": 0,
+            "z": -2.66025487254105
+          }
+        },
+        {
+          "name": "pfs1",
+          "type": "firewall",
+          "id": "ca1c10dc-f623-11ed-b67e-0242ac120002",
+          "interfaces": ["XG0/0/1"],
+          "position": {
+            "x": 0.26872140127277855,
+            "y": 0,
+            "z": 3.785584508744039
+          }
+        }
+      ]
+    },
+    {
+      "name": "manar",
+      "id": "ca1c0772-f623-11ed-b67e-0242ac120003",
+      "equipments": [
+        {
+          "name": "sw1",
+          "type": "switch",
+          "id": "ca1c0d08-f623-11ed-b67e-0242ac120002",
+          "interfaces": ["Ge0/0/48"],
+          "position": {
+            "x": 3.2472383143232353,
+            "y": 0,
+            "z": 0.6333564085238241
+          }
+        },
+        {
+          "name": "sw2",
+          "type": "switch",
+          "id": "ca1c0ea2-f623-11ed-b67e-0242ac120002",
+          "interfaces": ["Ge0/0/48"],
+          "position": {
+            "x": -3.701783406367899,
+            "y": 0,
+            "z": 0.3325500919727977
+          }
+        },
+        {
+          "name": "r1",
+          "type": "router",
+          "id": "ca1c0fc4-f623-11ed-b67e-0242ac120002",
+          "interfaces": ["Ge0/0/48", "Ge0/0/48", "XG0/0/1"],
+          "position": {
+            "x": -0.20116041734060008,
+            "y": 0,
+            "z": -2.66025487254105
+          }
+        },
+        {
+          "name": "pfs1",
+          "type": "firewall",
+          "id": "ca1c10dc-f623-11ed-b67e-0242ac120002",
+          "interfaces": ["XG0/0/1"],
+          "position": {
+            "x": 0.26872140127277855,
+            "y": 0,
+            "z": 3.785584508744039
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
